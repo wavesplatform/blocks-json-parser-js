@@ -1,0 +1,436 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Block parsing returns a correct block with Longs and sanitized AssetIds 1`] = `
+Object {
+  "blocksize": MockLong {
+    "_raw": "2696",
+    "value": 2696,
+  },
+  "features": Array [
+    8,
+  ],
+  "fee": MockLong {
+    "_raw": "1400000",
+    "value": 1400000,
+  },
+  "generator": "3P2HNUd5VUPLMQkJmctTPEeeHumiPN2GkTb",
+  "height": 1079609,
+  "nxt-consensus": Object {
+    "base-target": MockLong {
+      "_raw": "61",
+      "value": 61,
+    },
+    "generation-signature": "Gp39vfSJat5mRqHnxMcsC37ogVhd2Bxc2dDn8tB7T2hY",
+  },
+  "reference": "3U1Xm1tDKRgCdmjWJq6dBNbChM3PfrtDmpXdWaoSAS9Gj1WxSFFd4EThMXfAJTsiQKHN8qNKvBC8tws2r5ubbn4K",
+  "signature": "2eBu2kDuBMRJxVwahESCasTUGJbqy8QB1FxBUumgCLfS75NMUG8ewzyCMXoQWdozN3k3kQ9JfcPfBzo14eWh7dUB",
+  "timestamp": MockLong {
+    "_raw": "1531390236545",
+    "value": 1531390236545,
+  },
+  "transactionCount": 12,
+  "transactions": Array [
+    Object {
+      "amount": MockLong {
+        "_raw": "9999999500000000",
+        "value": 9999999500000000,
+      },
+      "fee": MockLong {
+        "_raw": "0",
+        "value": 0,
+      },
+      "id": "2DVtfgXjpMeFf2PQCqvwxAiaGbiDsxDjSdNQkc5JQ74eWxjWFYgwvqzC4dn7iB1AhuM32WxEiVi1SGijsBtYQwn8",
+      "recipient": "3PAWwWa6GbwcJaFzwqXQN5KQm7H96Y7SHTQ",
+      "signature": "2DVtfgXjpMeFf2PQCqvwxAiaGbiDsxDjSdNQkc5JQ74eWxjWFYgwvqzC4dn7iB1AhuM32WxEiVi1SGijsBtYQwn8",
+      "timestamp": MockLong {
+        "_raw": "1465742577614",
+        "value": 1465742577614,
+      },
+      "type": 1,
+    },
+    Object {
+      "amount": MockLong {
+        "_raw": "199999999",
+        "value": 199999999,
+      },
+      "fee": MockLong {
+        "_raw": "1",
+        "value": 1,
+      },
+      "id": "xrDqQAKLP7JopqEmocQh58oSgzkpt1E47TqfxXQJx4VFQDLCJ1Bwsa573ot7Wg2CPMngFzWCVuPJhSdnFFQQMif",
+      "recipient": "3PJ2hDszsb8voBdNamKupexVQV3cG1D2VfM",
+      "sender": "3P31zvGdh6ai6JK6zZ18TjYzJsa1B83YPoj",
+      "senderPublicKey": "46t5F1bUxG4mAQUiDyMKDBpWhHChLQSyhnVJ8R5jaLqH",
+      "signature": "xrDqQAKLP7JopqEmocQh58oSgzkpt1E47TqfxXQJx4VFQDLCJ1Bwsa573ot7Wg2CPMngFzWCVuPJhSdnFFQQMif",
+      "timestamp": MockLong {
+        "_raw": "1471579613492",
+        "value": 1471579613492,
+      },
+      "type": 2,
+    },
+    Object {
+      "assetId": "62E1ps3HNuFAjrdNn8AMNzMxsMLi2ayShgRYQzmND64u",
+      "decimals": 8,
+      "description": "STUART COIN",
+      "fee": MockLong {
+        "_raw": "100000000",
+        "value": 100000000,
+      },
+      "id": "62E1ps3HNuFAjrdNn8AMNzMxsMLi2ayShgRYQzmND64u",
+      "name": "STRC",
+      "quantity": MockLong {
+        "_raw": "10000000000000000",
+        "value": 10000000000000000,
+      },
+      "reissuable": false,
+      "script": null,
+      "sender": "3Mr1hxxjXCkt1FGXe8oV4NJBj6haRCXdRQx",
+      "senderPublicKey": "73nAM9eQi436BEL5zw9XXiuN864j6NmwN78eKiJw24C6",
+      "signature": "5BJTCA6uLNESSBPZkwTQucfJs3ydHRoyvBWsmwJ9mVAjyCcJpobvAU25h6sQwwNVRyrGbKy22pQb1Jxu2GFj37nJ",
+      "timestamp": MockLong {
+        "_raw": "1528402146960",
+        "value": 1528402146960,
+      },
+      "type": 3,
+      "version": 1,
+    },
+    Object {
+      "amount": MockLong {
+        "_raw": "33300000000",
+        "value": 33300000000,
+      },
+      "assetId": "36XgrZHWKt3ADGxJUPj5WHvh1QZfjQJGynk7wQkZW3xq",
+      "attachment": "",
+      "fee": MockLong {
+        "_raw": "100000",
+        "value": 100000,
+      },
+      "feeAsset": "WAVES",
+      "feeAssetId": "WAVES",
+      "id": "5SxQ2732JCLkgXBYDeTKy3HFzfSkSG6naERQH6q5kQzH",
+      "recipient": "3PKNfqfyhCkb3V7TAPafq4C9BMMtQmZwnkb",
+      "sender": "3PCQQcxizkoRjPcrhfBjeAkCz2iLGaZPguX",
+      "senderPublicKey": "GP3wnUGzBo5WitnahvDHKJY5n8DjXSe7PdWP4WaR5r1E",
+      "signature": "5gdFR7bg8YatiQAqrMHXWpbSJUDxAr5DfYBktCLh6oHDfcoXix1jqSu9zn3SZrwaADw8LGkwf8b4uYcyckJ8Amzq",
+      "timestamp": MockLong {
+        "_raw": "1531390229792",
+        "value": 1531390229792,
+      },
+      "type": 4,
+      "version": 1,
+    },
+    Object {
+      "assetId": "AC3KZWmywTEYrcQwpjg4sQiWxkZ2TZmv81JAvDmsoQvy",
+      "chainId": null,
+      "fee": MockLong {
+        "_raw": "100000000",
+        "value": 100000000,
+      },
+      "id": "6qd8QbnFrKEibTr26JyNh1hc4KaafGQYStyShtXdNk3v",
+      "quantity": MockLong {
+        "_raw": "10000000000000000",
+        "value": 10000000000000000,
+      },
+      "reissuable": true,
+      "sender": "3P6ms9EotRX8JwSrebeTXYVnzpsGCrKWLv4",
+      "senderPublicKey": "4X2Fv5XaDwBj2hjRghfqmsQDvBHqSa2zBUgZPDgySSJG",
+      "signature": "5nNrLV46rVzQzeScz3RmZF4rzaV2XaSjT9kjtHoyrBzAj3iVZM9Gy6t5Paho7xRx9dyqzj1AKyWYQsgL2nFa7jYU",
+      "timestamp": MockLong {
+        "_raw": "1528733511933",
+        "value": 1528733511933,
+      },
+      "type": 5,
+      "version": 1,
+    },
+    Object {
+      "amount": MockLong {
+        "_raw": "600000000",
+        "value": 600000000,
+      },
+      "assetId": "EhhKFkKkPZTEdgCrtJ99qTfy2ZcXHt1rgWeAsg1KY4gQ",
+      "chainId": null,
+      "fee": MockLong {
+        "_raw": "100000",
+        "value": 100000,
+      },
+      "id": "5TZVPxZYKZ4dGzBS2DokFcvGoxgZ46Co9DnzF4KLgWNr",
+      "sender": "3PCacprRVcW7Ksc3tfYStEdz3qk8Lirjm1R",
+      "senderPublicKey": "5DKcPkonAgXx5wxWehAyshPmtJ53B7ZwFDZAsepAEoBn",
+      "signature": "4Tkzi1HAb2ZhqCYUgpc2LxLY28xRHxkDvxhuYhTqBuLUpERjtjo3iACKRxVnoWNetrfE21Hzd4XBrq5mJMNT7yNv",
+      "timestamp": MockLong {
+        "_raw": "1531390239333",
+        "value": 1531390239333,
+      },
+      "type": 6,
+      "version": 1,
+    },
+    Object {
+      "amount": MockLong {
+        "_raw": "77625",
+        "value": 77625,
+      },
+      "buyMatcherFee": MockLong {
+        "_raw": "300000",
+        "value": 300000,
+      },
+      "fee": MockLong {
+        "_raw": "300000",
+        "value": 300000,
+      },
+      "id": "CrkEckJKNdYW1LJYgpD1ZDU8oN1ZMgbNMU7b8XPPRZLA",
+      "order1": Object {
+        "amount": MockLong {
+          "_raw": "77625",
+          "value": 77625,
+        },
+        "assetPair": Object {
+          "amountAsset": "3QvxP6YFBKpWJSMAfYtL8Niv8KmmKsnpb9uQwQpg8QN2",
+          "priceAsset": "WAVES",
+        },
+        "expiration": MockLong {
+          "_raw": "1531390532195",
+          "value": 1531390532195,
+        },
+        "id": "7mXqYRfUZgSGMf25G7iFTRnM6MWs8c3ESTh3SPFxgX1X",
+        "matcherFee": MockLong {
+          "_raw": "300000",
+          "value": 300000,
+        },
+        "matcherPublicKey": "7kPFrHDiGw1rCm7LPszuECwWYL3dMf6iMifLRDJQZMzy",
+        "orderType": "buy",
+        "price": MockLong {
+          "_raw": "2663841000000",
+          "value": 2663841000000,
+        },
+        "sender": "3P7DsCo8TN5t1PNz45exhLe6vKFkTQJYrNb",
+        "senderPublicKey": "6mYVd69bZsLYW9gpxu3Vjneaf4xpZPnKYiLFuGXJQKQw",
+        "signature": "sod6h4S3tjNuyuxVQ6cdpzWfEstvH22YsQK6R1uQuU7kQY4Vs4EvAWmMC1QuD8TRjf76QTzVqBXn97MYFCinjaj",
+        "timestamp": MockLong {
+          "_raw": "1531390232195",
+          "value": 1531390232195,
+        },
+      },
+      "order2": Object {
+        "amount": MockLong {
+          "_raw": "153611",
+          "value": 153611,
+        },
+        "assetPair": Object {
+          "amountAsset": "3QvxP6YFBKpWJSMAfYtL8Niv8KmmKsnpb9uQwQpg8QN2",
+          "priceAsset": "WAVES",
+        },
+        "expiration": MockLong {
+          "_raw": "1531390532172",
+          "value": 1531390532172,
+        },
+        "id": "9QVsymzjN9MSkfn1bE3LDQv8RHiNsFSn9smDJuY1Xpq4",
+        "matcherFee": MockLong {
+          "_raw": "300000",
+          "value": 300000,
+        },
+        "matcherPublicKey": "7kPFrHDiGw1rCm7LPszuECwWYL3dMf6iMifLRDJQZMzy",
+        "orderType": "sell",
+        "price": MockLong {
+          "_raw": "2663841000000",
+          "value": 2663841000000,
+        },
+        "sender": "3PMFLMN9GG1coCXRn26vUmF2vtCCd4RDWRR",
+        "senderPublicKey": "Dk3r1HwVK1Ktp3MJCoAspNyyRpLFcs2h5SKsoV5F3Rvd",
+        "signature": "2nHAnT2wnSv5buXjnQ1LTCzLmZZ7MpCSmTNJmNAdhXbjwqM2rw2PmBsS9bNh7duS8EXURXv3Ma6grbazpxip4vkK",
+        "timestamp": MockLong {
+          "_raw": "1531390232172",
+          "value": 1531390232172,
+        },
+      },
+      "price": MockLong {
+        "_raw": "2663841000000",
+        "value": 2663841000000,
+      },
+      "sellMatcherFee": MockLong {
+        "_raw": "151600",
+        "value": 151600,
+      },
+      "sender": "3PJaDyprvekvPXPuAtxrapacuDJopgJRaU3",
+      "senderPublicKey": "7kPFrHDiGw1rCm7LPszuECwWYL3dMf6iMifLRDJQZMzy",
+      "signature": "vypxtXERRnVCZf9k3YWtwGKB8PAgZvWDUJ235VY5RTuEe4YutDTkWB6yNCLAFbg4r7QCLEaVVe6WX2WH2FXd3Uf",
+      "timestamp": MockLong {
+        "_raw": "1531390233076",
+        "value": 1531390233076,
+      },
+      "type": 7,
+    },
+    Object {
+      "amount": MockLong {
+        "_raw": "500000000",
+        "value": 500000000,
+      },
+      "fee": MockLong {
+        "_raw": "100000",
+        "value": 100000,
+      },
+      "id": "7k4EPgA3VxoE56TMJLjvF9FMpywyfeS5qRJSEEN9XGuU",
+      "recipient": "3P2HNUd5VUPLMQkJmctTPEeeHumiPN2GkTb",
+      "sender": "3P6iv9tYo3ELne7tc9HR8BzhK3LE2aDDu1A",
+      "senderPublicKey": "b8AB1PQWE7kH55cS48uDTV5fezrAyDTCf7iePyXNzNm",
+      "signature": "3n34MYd3Acx1JpTtvYffdVYCVySuRgZvSbHMA3AxqQwr4xvfZedv9UbqSB9k84PGY5C8RSwGRjDnMGcYwQu2x7B5",
+      "timestamp": MockLong {
+        "_raw": "1528813353617",
+        "value": 1528813353617,
+      },
+      "type": 8,
+      "version": 1,
+    },
+    Object {
+      "chainId": null,
+      "fee": MockLong {
+        "_raw": "100000",
+        "value": 100000,
+      },
+      "id": "69tnFn6zueF1aYV1igp7jppeHR5gzCeixitwRmbujqzR",
+      "leaseId": "CwbYAN5635JFsjg9P7rHRuYTRGsX7UuLuhGqnCocWCYF",
+      "sender": "3PLNmokt22NrSiNvCLvwMUP84LCMJqbXwAD",
+      "senderPublicKey": "DFYiAU7CJ3Vm3n2eofLVzfxuSBxjVTuR3bsdJqvyY7s",
+      "signature": "66736kxMcuLRS5dBQJ5V93LpU4jDBNDMjWjwaRtMsQfnggByv1HaAuE1CK4fPGXa1yfT8rfVqnmvpECLJjxddUBs",
+      "timestamp": MockLong {
+        "_raw": "1528764508254",
+        "value": 1528764508254,
+      },
+      "type": 9,
+      "version": 1,
+    },
+    Object {
+      "alias": "pp43529ita",
+      "fee": MockLong {
+        "_raw": "100000",
+        "value": 100000,
+      },
+      "id": "4hfjTUkBeB6tNN8GgXY5C2s5bARCsYQ8AFdZyXnMwZyQ",
+      "sender": "3PMRUUKHxvAAbvmgooas4vtNg72s1eQ6SGX",
+      "senderPublicKey": "31roLYdCifJaxyZS53FJpChijUYmtxMyLPFX57qJJ2ut",
+      "signature": "vnSMKHaTwgMMGq4aS4H4TAxKMhT5fsQzziFqacMgbgAnLwk45EHFiLVkXMYEywTHuA9aD41X6j9camoFjXRSdZB",
+      "timestamp": MockLong {
+        "_raw": "1528823663546",
+        "value": 1528823663546,
+      },
+      "type": 10,
+      "version": 1,
+    },
+    Object {
+      "assetId": "Fx2rhWK36H1nfXsiD4orNpBm2QG1JrMhx3eUcPVcoZm2",
+      "attachment": "xZBWqm9Ddt5BJVFvHUaQwB7Dsj78UQ5HatQjD8VQKj4CHG48WswJxUUeHEDZJkHgt9LycUpHBFc8ENu8TF8vvnDJCgfy1NeKaUNydqy9vkACLZjSqaVmvfaM3NQB",
+      "fee": MockLong {
+        "_raw": "5100000",
+        "value": 5100000,
+      },
+      "id": "3LRfudet7avpQcW1AdauiBGb8SSRAaoCugDzngDPLVcv",
+      "proofs": Array [
+        "FmGBaWABAy5bif7Qia2LWQ5B4KNmBnbXETL1mE6XEy4AAMjftt3FrxAa8x2pZ9ux391oY5c2c6ZSDEM4nzrvJDo",
+      ],
+      "sender": "3P2rvn2Hpz6pJcH8oPNrwLsetvYP852QQ2m",
+      "senderPublicKey": "5DphrhGy6MM4N3yxfB2uR2oFUkp2MNMpSzhZ4uJEm3U1",
+      "timestamp": MockLong {
+        "_raw": "1528973951321",
+        "value": 1528973951321,
+      },
+      "totalAmount": MockLong {
+        "_raw": "500000000000",
+        "value": 500000000000,
+      },
+      "transferCount": 100,
+      "transfers": Array [
+        Object {
+          "amount": MockLong {
+            "_raw": "5000000000",
+            "value": 5000000000,
+          },
+          "recipient": "3PHnjQrdK389SbzwPEJHYKzhCqWvaoy3GQB",
+        },
+        Object {
+          "amount": MockLong {
+            "_raw": "5000000000",
+            "value": 5000000000,
+          },
+          "recipient": "3PGNLwUG2GPpw74teTAxXFLxgFt3T2uQJsF",
+        },
+        Object {
+          "amount": MockLong {
+            "_raw": "5000000000",
+            "value": 5000000000,
+          },
+          "recipient": "3P5kQneM9EdpVUbFLgefD385LLYTXY5J32c",
+        },
+        Object {
+          "amount": MockLong {
+            "_raw": "5000000000",
+            "value": 5000000000,
+          },
+          "recipient": "3P2j9FZyygnVDCQvmSc41VCAKwwCQm8QUhA",
+        },
+        Object {
+          "amount": MockLong {
+            "_raw": "5000000000",
+            "value": 5000000000,
+          },
+          "recipient": "3PNBZutLvMpjzxGAiQGqQuDyanhWyLi2Fhi",
+        },
+      ],
+      "type": 11,
+      "version": 1,
+    },
+    Object {
+      "data": Array [
+        Object {
+          "key": "test long",
+          "type": "integer",
+          "value": MockLong {
+            "_raw": "1001",
+            "value": 1001,
+          },
+        },
+        Object {
+          "key": "test true",
+          "type": "boolean",
+          "value": true,
+        },
+        Object {
+          "key": "test false",
+          "type": "boolean",
+          "value": false,
+        },
+        Object {
+          "key": "test bytes",
+          "type": "binary",
+          "value": "base64:AQIDBAU=",
+        },
+        Object {
+          "key": "test string",
+          "type": "string",
+          "value": "Hello, Waves!",
+        },
+        Object {
+          "key": "test russian",
+          "type": "string",
+          "value": "Привет uuQQQQQQQQQQфффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффQQёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёёQqqqqqqqqqqqqqqqqqqq\`\`ёёёёёёёёёёёёёёёёёёёёёёёёёёuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффuuu",
+        },
+      ],
+      "fee": MockLong {
+        "_raw": "100000",
+        "value": 100000,
+      },
+      "id": "F6QEChEyR5dnjdtVhnyDojfUhDtM3UpXPTNvgCHhiueo",
+      "proofs": Array [
+        "4vE2roJdh8k9eVjRJNjyDjWgkQKUwnggj1xwt4psuANFthvwasw8U1boqzE9TgZW75LyWVVny7yw8uQJVYpivYtZ",
+      ],
+      "sender": "3N4dVn8BsNtsPwZ3MuSWpvBoFXiF3KtRTK8",
+      "senderPublicKey": "B33Z3tJ25BsHDbyazzeZidXHxFWakx154YFcxVomvMXY",
+      "timestamp": MockLong {
+        "_raw": "1528378807707",
+        "value": 1528378807707,
+      },
+      "type": 12,
+      "version": 1,
+    },
+  ],
+  "version": 3,
+}
+`;
