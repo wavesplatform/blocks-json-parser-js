@@ -1,6 +1,6 @@
 {
   "name": "@waves/blocks-json-parser",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A function to parse Waves blocks from Waves Node API into JavaScript, preserving Long values and sanitizing assetId fields (null -> 'WAVES')",
   "main": "src/index.js",
   "repository": "https://github.com/wavesplatform/blocks-json-parser-js.git",
