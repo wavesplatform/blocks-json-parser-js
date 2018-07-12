@@ -7,6 +7,9 @@
   "author": "Dmitry Shuranov <dvshur@gmail.com>",
   "license": "MIT",
   "private": false,
+  "files": [
+    "src"
+  ],
   "scripts": {
     "test": "jest"
   },
