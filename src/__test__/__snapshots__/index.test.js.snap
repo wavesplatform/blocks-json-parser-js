@@ -434,3 +434,36 @@ Object {
   "version": 3,
 }
 `;
+
+exports[`Block parsing returns a correct header with Longs and sanitized AssetIds 1`] = `
+Object {
+  "blocksize": MockLong {
+    "_raw": "2696",
+    "value": 2696,
+  },
+  "features": Array [
+    8,
+  ],
+  "fee": MockLong {
+    "_raw": "1400000",
+    "value": 1400000,
+  },
+  "generator": "3P2HNUd5VUPLMQkJmctTPEeeHumiPN2GkTb",
+  "height": 1079609,
+  "nxt-consensus": Object {
+    "base-target": MockLong {
+      "_raw": "61",
+      "value": 61,
+    },
+    "generation-signature": "Gp39vfSJat5mRqHnxMcsC37ogVhd2Bxc2dDn8tB7T2hY",
+  },
+  "reference": "3U1Xm1tDKRgCdmjWJq6dBNbChM3PfrtDmpXdWaoSAS9Gj1WxSFFd4EThMXfAJTsiQKHN8qNKvBC8tws2r5ubbn4K",
+  "signature": "2eBu2kDuBMRJxVwahESCasTUGJbqy8QB1FxBUumgCLfS75NMUG8ewzyCMXoQWdozN3k3kQ9JfcPfBzo14eWh7dUB",
+  "timestamp": MockLong {
+    "_raw": "1531390236545",
+    "value": 1531390236545,
+  },
+  "transactionCount": 12,
+  "version": 3,
+}
+`;
