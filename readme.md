@@ -1,18 +1,17 @@
 # @waves/blocks-json-parser
 
-A package that parses blocks from Waves Node API into JS objects of the same shape, with the ability to preserve Long values and sanitizing asset names.
+A package that parses blocks from Waves Node API into JS objects of the same shape, with the ability to preserve Long values and sanitize asset names.
 
 ## API
 
 ```js
-parse(blockText, [ options ]);
+parse(blockText, [options]);
 ```
 
-- `blockText` raw JSON string from API
+- `blockText` a raw JSON string from API
 - `options`
-  - `long`: a factory creating Long values from string. For example, `long.js` or `bignumber.js` can be used.
-  - `assetId`: a transform for fields containing asset IDs. By default, changes `null` values from API to `WAVES`.
-
+  - `long`: a factory creating Long values from strings. For example, `long.js` or `bignumber.js` can be used.
+  - `assetId`: a transform for fields containing asset IDs. By default, changes `null` values from API to `'WAVES'`.
 
 ## Usage
 
