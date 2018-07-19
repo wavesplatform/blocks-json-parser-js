@@ -5,7 +5,7 @@ A package that parses blocks from Waves Node API into JS objects of the same sha
 ## API
 
 ```js
-parse(blockText, [options]);
+parseBlock(blockText, [options]);
 ```
 
 - `blockText` a raw JSON string from API
@@ -19,5 +19,5 @@ parse(blockText, [options]);
 const parseBlock = require('@waves/blocks-json-parser');
 const Long = require('long');
 
-parse(blocksText, { long: x => Long.fromString(x) });
+parseBlock(blocksText, { long: x => Long.fromString(x) });
 ```
